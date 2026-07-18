@@ -1,0 +1,6 @@
+{
+  "name": "Car Rental Business Portal",
+  "description": "A premium, responsive, and interactive frontend portal for a car rental business, built with React and Tailwind CSS. It features custom-tailored dashboards for owners, vendors, customers, and drivers, pricing comparison, available fleet management, registration, and mockup invoicing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

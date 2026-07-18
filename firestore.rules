@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Beginner Friendly Firestore Rules:
+    // This allows anyone on the internet to read and write to the customers collection.
+    match /customers/{document} {
+      allow read, write: if true;
+    }
+
+    // This allows anyone on the internet to read and write to the bookings collection.
+    match /bookings/{document} {
+      allow read, write: if true;
+    }
+  }
+}
