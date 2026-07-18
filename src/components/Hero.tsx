@@ -29,7 +29,7 @@ export default function Hero({ onBrowseCars, onRegister }: HeroProps) {
             </h1>
 
             <p className="text-blue-100 opacity-90 text-base sm:text-lg max-w-xl leading-relaxed">
-              Digitally manage your fleet, bookings, and customers in one centralized platform. Transition from manual chaos and WhatsApp threads to a unified, elite portal.
+              Digitally manage your fleet, bookings, and customers with real-time Firestore syncing. Transition from manual spreadsheets to a unified, cloud-powered elite portal.
             </p>
 
             {/* Quick value badges */}
